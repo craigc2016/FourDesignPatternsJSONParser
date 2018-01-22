@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>210</x>
+      <y>40</y>
+      <w>140</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>Comp
+--
+
+
+--
+String displayYes()
+String displayNo()
+JRadioButton radioYes()
+JRadioButton radioNo()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>210</x>
+      <y>310</y>
+      <w>140</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>SupplementComp
+--
+int num
+
+--
+String displayYes()
+String displayNo()
+JRadioButton radioYes()
+JRadioButton radioNo()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>530</x>
+      <y>300</y>
+      <w>130</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>CompMaker
+--
+-Comp jersey
+-Comp equipment
+-Comp women
+-Comp men
+-Comp supplement
+--
+String displayJerseyYes()
+String displayJerseyNo()
+JRadioButton displayRadioYes()
+JRadioButton displayRadioNo()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>530</x>
+      <y>20</y>
+      <w>110</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Supplement
+--
+
+--
++ main(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Note</type>
+    <coordinates>
+      <x>150</x>
+      <y>20</y>
+      <w>260</w>
+      <h>510</h>
+    </coordinates>
+    <panel_attributes>interface </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>220</x>
+      <y>180</y>
+      <w>130</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+implements</panel_attributes>
+    <additional_attributes>70;30;70;130</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>380</x>
+      <y>340</y>
+      <w>170</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+creates</panel_attributes>
+    <additional_attributes>30;50;150;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>540</x>
+      <y>110</y>
+      <w>86</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+asks</panel_attributes>
+    <additional_attributes>50;200;50;30</additional_attributes>
+  </element>
+</diagram>

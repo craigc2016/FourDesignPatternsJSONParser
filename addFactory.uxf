@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>360</x>
+      <y>30</y>
+      <w>180</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>ItemsList
+--
+#String jerseyList[]
+#String equipmentList[]
+#String womensList[]
+#String menList[]
+#String supplementList[]
+--
+String[] getJerseyList()
+String[] getEquipmentList()
+String[] getWomenList()
+String[] getmenList()
+String[] getSupplementList()
+JList&lt;String&gt; display()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>370</x>
+      <y>330</y>
+      <w>140</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>SupplementList
+--
+-int size
+--
+SupplementList(list)
+JList display()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>720</x>
+      <y>20</y>
+      <w>140</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>ItemsFactory
+--
+int index
+--
+ItemsList getItemsList(list)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>510</x>
+      <y>110</y>
+      <w>230</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;30;210;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>390</x>
+      <y>220</y>
+      <w>106</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+extends</panel_attributes>
+    <additional_attributes>60;110;60;30</additional_attributes>
+  </element>
+</diagram>
